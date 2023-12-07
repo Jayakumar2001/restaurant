@@ -1,0 +1,158 @@
+.slider{
+    margin-top: 170px;
+    position: relative;
+}
+#top{
+    font-size: 20px;
+}
+#textmove1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    margin-left: 300px;
+    margin-top: 60px;
+    color: yellow;
+}
+#textmove1 button{
+border-radius: 10px;
+background-color: yellow;
+}
+#textmove1 button:hover{
+    color: yellow;
+    background-color: red;
+
+    }
+#textmove2{
+    position: absolute;
+    top: 70px;
+}
+#textmove2 input{
+    border-radius: 10px;
+}
+#textmove2 h3 {
+ color:red ;
+}
+#textmove2 p {
+    color:orangered ;
+   }
+#textmove2 button {
+    color:white ;
+    background-color: blue;
+    border-radius: 10px;
+   }
+   #textmove3 {
+    position: absolute;
+    top: 30px;
+    color: red;
+   }
+
+#textmove3 .p1 {
+    color:purple ;
+    font-size:30px ;
+   }
+   #textmove3 .p2 {
+    color:blue;
+    font-size:30px ;
+   }
+   #textmove3 button {
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: blue;
+    color: white
+   }
+   #textmove3 button:hover {
+    background-color: red;
+    color: wheat
+   }
+
+.maincontent{
+    background-image: url(first.img/bg10.avif);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 100vw;
+    height: 100%;
+    background-position: center;
+    padding: 80px;
+}
+.maincontent h1{
+    color: blue;
+}
+#arr1{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    color: red;
+    height: 270px;
+    width: 240px;
+    overflow: hidden;
+}
+#arr1 h3{
+    color: red;
+    text-decoration: none;
+    font-size: 21px;
+}
+#arr1 img{
+    padding-top: 1px;
+    max-width: 100%;
+  
+    transition: transform 0.3s ease; 
+}
+#arr1:hover img{
+    transform: scale(1.1); 
+}
+#arr1 {
+    transition: transform 0.3s ease; 
+}
+#arr1:hover {
+    transform: scale(1.1); 
+}
+
+.footer{
+    background-image: url(first.img/bg5.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    padding: 100px;
+}
+.footer h1{
+    color: red
+}
+
+.card img {
+    width: 100%;
+    padding: 10px;
+}
+.card-title{
+    background-color: yellow;
+    
+}
+#arr {
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+    height: 280px;
+    width: 250px;
+}
+#arr img{
+    transition: transform 0.3s ease; 
+}
+#arr:hover img{
+    transform: scale(1.1); 
+}
+#arr button{
+    margin-top: 20px;
+}
+#arr button:hover{
+ color: red;
+ background-color: yellow;
+}
+#arr {
+    transition: transform 0.3s ease; 
+}
+#arr:hover {
+    transform: scale(1.1); 
+}

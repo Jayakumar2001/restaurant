@@ -1,0 +1,71 @@
+body{
+     background-image:url(first.img/menuback1.avif);  
+}
+
+
+#top{
+    font-size: 20px;
+}
+#topic li a{
+color: red;
+background-color: yellow;
+font-size: 40px;
+position: absolute;
+    left: 20px;
+}
+.part{
+    margin-top: 20px;
+    
+}
+.container{
+    margin-top: 200px;
+}
+.container h1{
+    color: yellow;
+    background-color: red;
+}
+.card img {
+    width: 100%;
+    padding: 10px;
+}
+.card-title{
+    background-color: yellow;
+    
+}
+
+#arr {
+    text-align: center;
+    margin-top: 30px;
+    color: red;
+    height: 360px;
+    width: 280px;  
+}
+#arr p{
+    font-size: 20px;
+    font-weight: bold;
+}
+#arr img{
+    height: 200px;
+    padding-top: 1px;
+    max-width: 100%;
+    transition: transform 0.3s ease; 
+}
+#arr:hover img{
+    transform: scale(1.1); 
+}
+#arr button{
+    color: yellow;
+    background-color: red;
+    font-size: 20px;
+}
+#arr button:hover{
+    color: red;
+    background-color: yellow;
+}
+#arr {
+    transition: transform 0.3s ease; 
+}
+#arr:hover {
+    transform: scale(1.1); 
+}
+
